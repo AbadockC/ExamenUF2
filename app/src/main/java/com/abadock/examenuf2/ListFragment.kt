@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.abadock.examenuf2.databinding.FragmentListBinding
+import com.abadock.examenuf2.databinding.FragmentLoginBinding
 
 class ListFragment : Fragment() {
 
@@ -25,6 +27,12 @@ class ListFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return inflater.inflate(R.layout.fragment_list, container, false)
+        val binding = FragmentListBinding.inflate(inflater)
+
+        binding.button.setOnClickListener{
+            viewModel.newTeacher("Jaime", "Pedret", "12312412X", "Nateja", "jpedret@gmail.com")
+        }
+
+        return binding.root
     }
 }

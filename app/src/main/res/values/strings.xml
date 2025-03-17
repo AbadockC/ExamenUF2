@@ -6,4 +6,6 @@
     <string name="loginButton">login</string>
     <string name="registerButton">register</string>
     <string name="register_">register</string>
+    <string name="probar_funci">Probar funció</string>
+    <string name="login_correcte">Login correcte</string>
 </resources>
