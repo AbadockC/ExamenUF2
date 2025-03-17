@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExamenUF2</string>
+    <string name="login_">Login</string>
+    <string name="usuari_">usuari</string>
+    <string name="contrasenya_">contrasenya</string>
+    <string name="loginButton">login</string>
+    <string name="registerButton">register</string>
+    <string name="register_">register</string>
+</resources>

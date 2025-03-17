@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646085372476",
+    "project_id": "examenuf2-54c96",
+    "storage_bucket": "examenuf2-54c96.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646085372476:android:449c25e1dbfe49a19bb139",
+        "android_client_info": {
+          "package_name": "com.abadock.examenuf2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpy7f7GULQT67J75U2SHWjxuoADZkIWpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
